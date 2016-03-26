@@ -1,0 +1,99 @@
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}aflr2utils Namespace Reference}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}aflr2utils.\discretionary {-}{}{}distributions Namespace Reference}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}aflr2utils.\discretionary {-}{}{}geometry Namespace Reference}{7}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Function Documentation}{7}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}import\discretionary {-}{}{}\_\discretionary {-}{}{}geometry}{7}{subsubsection.4.3.1.1}
+\contentsline {section}{\numberline {4.4}aflr2utils.\discretionary {-}{}{}mesh Namespace Reference}{8}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Function Documentation}{8}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}arc\discretionary {-}{}{}\_\discretionary {-}{}{}connector}{8}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}connector}{8}{subsubsection.4.4.1.2}
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Connector Class Reference}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{9}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Constructor \& Destructor Documentation}{9}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{9}{subsubsection.5.1.2.1}
+\contentsline {subsection}{\numberline {5.1.3}Member Function Documentation}{9}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}create\discretionary {-}{}{}\_\discretionary {-}{}{}point\discretionary {-}{}{}\_\discretionary {-}{}{}distribution}{9}{subsubsection.5.1.3.1}
+\contentsline {subsection}{\numberline {5.1.4}Member Data Documentation}{10}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}bc}{10}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}nodes}{10}{subsubsection.5.1.4.2}
+\contentsline {subsubsection}{\numberline {5.1.4.3}num\discretionary {-}{}{}\_\discretionary {-}{}{}points}{10}{subsubsection.5.1.4.3}
+\contentsline {subsubsection}{\numberline {5.1.4.4}seg}{10}{subsubsection.5.1.4.4}
+\contentsline {section}{\numberline {5.2}aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Edge Class Reference}{10}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{10}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Constructor \& Destructor Documentation}{10}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{10}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}Member Data Documentation}{10}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}connectors}{10}{subsubsection.5.2.3.1}
+\contentsline {section}{\numberline {5.3}aflr2utils.\discretionary {-}{}{}distributions.\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent Class Reference}{10}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{11}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Constructor \& Destructor Documentation}{11}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{11}{subsubsection.5.3.2.1}
+\contentsline {subsection}{\numberline {5.3.3}Member Function Documentation}{11}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}find\discretionary {-}{}{}\_\discretionary {-}{}{}delta}{11}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}s}{11}{subsubsection.5.3.3.2}
+\contentsline {subsection}{\numberline {5.3.4}Member Data Documentation}{11}{subsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.4.1}delta}{11}{subsubsection.5.3.4.1}
+\contentsline {subsubsection}{\numberline {5.3.4.2}ds}{11}{subsubsection.5.3.4.2}
+\contentsline {subsubsection}{\numberline {5.3.4.3}imax}{11}{subsubsection.5.3.4.3}
+\contentsline {subsubsection}{\numberline {5.3.4.4}reverse}{11}{subsubsection.5.3.4.4}
+\contentsline {subsubsection}{\numberline {5.3.4.5}s\discretionary {-}{}{}\_\discretionary {-}{}{}fun}{11}{subsubsection.5.3.4.5}
+\contentsline {section}{\numberline {5.4}aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Mesh Class Reference}{12}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{12}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Constructor \& Destructor Documentation}{12}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{12}{subsubsection.5.4.2.1}
+\contentsline {subsection}{\numberline {5.4.3}Member Function Documentation}{12}{subsection.5.4.3}
+\contentsline {subsubsection}{\numberline {5.4.3.1}write\discretionary {-}{}{}\_\discretionary {-}{}{}bedge}{12}{subsubsection.5.4.3.1}
+\contentsline {subsection}{\numberline {5.4.4}Member Data Documentation}{12}{subsection.5.4.4}
+\contentsline {subsubsection}{\numberline {5.4.4.1}edges}{12}{subsubsection.5.4.4.1}
+\contentsline {section}{\numberline {5.5}aflr2utils.\discretionary {-}{}{}geometry.\discretionary {-}{}{}Point Class Reference}{12}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{13}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Constructor \& Destructor Documentation}{13}{subsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{13}{subsubsection.5.5.2.1}
+\contentsline {subsection}{\numberline {5.5.3}Member Data Documentation}{13}{subsection.5.5.3}
+\contentsline {subsubsection}{\numberline {5.5.3.1}x}{13}{subsubsection.5.5.3.1}
+\contentsline {subsubsection}{\numberline {5.5.3.2}y}{13}{subsubsection.5.5.3.2}
+\contentsline {section}{\numberline {5.6}aflr2utils.\discretionary {-}{}{}geometry.\discretionary {-}{}{}Segment Class Reference}{13}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{14}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Constructor \& Destructor Documentation}{14}{subsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{14}{subsubsection.5.6.2.1}
+\contentsline {subsection}{\numberline {5.6.3}Member Function Documentation}{14}{subsection.5.6.3}
+\contentsline {subsubsection}{\numberline {5.6.3.1}find\discretionary {-}{}{}\_\discretionary {-}{}{}inner\discretionary {-}{}{}\_\discretionary {-}{}{}control\discretionary {-}{}{}\_\discretionary {-}{}{}points}{14}{subsubsection.5.6.3.1}
+\contentsline {subsubsection}{\numberline {5.6.3.2}get\discretionary {-}{}{}\_\discretionary {-}{}{}point}{14}{subsubsection.5.6.3.2}
+\contentsline {subsubsection}{\numberline {5.6.3.3}obj\discretionary {-}{}{}\_\discretionary {-}{}{}func}{14}{subsubsection.5.6.3.3}
+\contentsline {subsection}{\numberline {5.6.4}Member Data Documentation}{14}{subsection.5.6.4}
+\contentsline {subsubsection}{\numberline {5.6.4.1}bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}{14}{subsubsection.5.6.4.1}
+\contentsline {subsubsection}{\numberline {5.6.4.2}bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}{14}{subsubsection.5.6.4.2}
+\contentsline {subsubsection}{\numberline {5.6.4.3}is\discretionary {-}{}{}\_\discretionary {-}{}{}bezier}{14}{subsubsection.5.6.4.3}
+\contentsline {subsubsection}{\numberline {5.6.4.4}p0}{14}{subsubsection.5.6.4.4}
+\contentsline {subsubsection}{\numberline {5.6.4.5}p1}{14}{subsubsection.5.6.4.5}
+\contentsline {subsubsection}{\numberline {5.6.4.6}p2}{14}{subsubsection.5.6.4.6}
+\contentsline {subsubsection}{\numberline {5.6.4.7}p3}{14}{subsubsection.5.6.4.7}
+\contentsline {subsubsection}{\numberline {5.6.4.8}points}{14}{subsubsection.5.6.4.8}
+\contentsline {subsubsection}{\numberline {5.6.4.9}spacing\discretionary {-}{}{}\_\discretionary {-}{}{}function}{15}{subsubsection.5.6.4.9}
+\contentsline {subsubsection}{\numberline {5.6.4.10}straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}{15}{subsubsection.5.6.4.10}
+\contentsline {subsubsection}{\numberline {5.6.4.11}straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}{15}{subsubsection.5.6.4.11}
+\contentsline {subsubsection}{\numberline {5.6.4.12}x0}{15}{subsubsection.5.6.4.12}
+\contentsline {subsubsection}{\numberline {5.6.4.13}x\discretionary {-}{}{}\_\discretionary {-}{}{}data}{15}{subsubsection.5.6.4.13}
+\contentsline {subsubsection}{\numberline {5.6.4.14}y\discretionary {-}{}{}\_\discretionary {-}{}{}data}{15}{subsubsection.5.6.4.14}
+\contentsline {section}{\numberline {5.7}aflr2utils.\discretionary {-}{}{}distributions.\discretionary {-}{}{}Uniform Class Reference}{15}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{15}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Constructor \& Destructor Documentation}{15}{subsection.5.7.2}
+\contentsline {subsubsection}{\numberline {5.7.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{15}{subsubsection.5.7.2.1}
+\contentsline {subsection}{\numberline {5.7.3}Member Function Documentation}{15}{subsection.5.7.3}
+\contentsline {subsubsection}{\numberline {5.7.3.1}s}{15}{subsubsection.5.7.3.1}
+\contentsline {subsection}{\numberline {5.7.4}Member Data Documentation}{15}{subsection.5.7.4}
+\contentsline {subsubsection}{\numberline {5.7.4.1}imax}{15}{subsubsection.5.7.4.1}
+\contentsline {chapter}{\numberline {6}File Documentation}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}.\discretionary {-}{}{}py File Reference}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}distributions.\discretionary {-}{}{}py File Reference}{17}{section.6.2}
+\contentsline {section}{\numberline {6.3}geometry.\discretionary {-}{}{}py File Reference}{17}{section.6.3}
+\contentsline {section}{\numberline {6.4}mesh.\discretionary {-}{}{}py File Reference}{18}{section.6.4}
+\contentsline {chapter}{Index}{19}{section*.31}

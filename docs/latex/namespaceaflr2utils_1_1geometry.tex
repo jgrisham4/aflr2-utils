@@ -1,0 +1,48 @@
+\hypertarget{namespaceaflr2utils_1_1geometry}{\section{aflr2utils.\-geometry Namespace Reference}
+\label{namespaceaflr2utils_1_1geometry}\index{aflr2utils.\-geometry@{aflr2utils.\-geometry}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classaflr2utils_1_1geometry_1_1Point}{Point}
+\item 
+class \hyperlink{classaflr2utils_1_1geometry_1_1Segment}{Segment}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespaceaflr2utils_1_1geometry_a2d5ee2d9bf1a388f09b6a8b21cd00224}{import\-\_\-geometry}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespaceaflr2utils_1_1geometry_a2d5ee2d9bf1a388f09b6a8b21cd00224}{\index{aflr2utils\-::geometry@{aflr2utils\-::geometry}!import\-\_\-geometry@{import\-\_\-geometry}}
+\index{import\-\_\-geometry@{import\-\_\-geometry}!aflr2utils::geometry@{aflr2utils\-::geometry}}
+\subsubsection[{import\-\_\-geometry}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-geometry.\-import\-\_\-geometry (
+\begin{DoxyParamCaption}
+\item[{}]{file\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{namespaceaflr2utils_1_1geometry_a2d5ee2d9bf1a388f09b6a8b21cd00224}
+\begin{DoxyVerb}Function for importing segments from a file.
+
+Format of data file:
+NS
+NP_1
+x_1  y_1
+x_2  y_2
+  .   .
+  .   .
+  .   .
+x_NP y_NP
+NC_2
+NP_1
+...
+
+where
+NS   - number of segments.
+NP_i - number of knots for segment i.
+
+@param file_name name of file which contains data to be imported.
+@return a list of segment objects.
+\end{DoxyVerb}
+ 

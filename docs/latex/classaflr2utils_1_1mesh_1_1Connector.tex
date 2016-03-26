@@ -1,0 +1,85 @@
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector}{\section{aflr2utils.\-mesh.\-Connector Class Reference}
+\label{classaflr2utils_1_1mesh_1_1Connector}\index{aflr2utils.\-mesh.\-Connector@{aflr2utils.\-mesh.\-Connector}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classaflr2utils_1_1mesh_1_1Connector_a1f1d885ff7aa4c554fd9de26d62df2ab}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\item 
+def \hyperlink{classaflr2utils_1_1mesh_1_1Connector_a2e326dbcde99f1d99492dae842d439ba}{create\-\_\-point\-\_\-distribution}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classaflr2utils_1_1mesh_1_1Connector_aeaa7d5ba24f17928e1c0c60cc2b92f70}{seg}
+\item 
+\hyperlink{classaflr2utils_1_1mesh_1_1Connector_a1c20205fb5946a6b3d5e9c2cf86f9173}{num\-\_\-points}
+\item 
+\hyperlink{classaflr2utils_1_1mesh_1_1Connector_a820425dc41d23724ecab5ce72f336d0b}{nodes}
+\item 
+\hyperlink{classaflr2utils_1_1mesh_1_1Connector_a59689632fcfb6fc3470d0163b29bd823}{bc}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Class for connector (in Pointwise terminology).\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_a1f1d885ff7aa4c554fd9de26d62df2ab}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-mesh.\-Connector.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{seg, }
+\item[{}]{num\-\_\-points, }
+\item[{}]{bc = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1mesh_1_1Connector_a1f1d885ff7aa4c554fd9de26d62df2ab}
+\begin{DoxyVerb}Constructor.
+Possible boundary conditions (bc) values are
+0 - inviscid
+1 - viscous
+2 - farfield
+
+@param seg input segment object on which connector will be created.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_a2e326dbcde99f1d99492dae842d439ba}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!create\-\_\-point\-\_\-distribution@{create\-\_\-point\-\_\-distribution}}
+\index{create\-\_\-point\-\_\-distribution@{create\-\_\-point\-\_\-distribution}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{create\-\_\-point\-\_\-distribution}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-mesh.\-Connector.\-create\-\_\-point\-\_\-distribution (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{distribution, }
+\item[{}]{cluster\-\_\-end = {\ttfamily False}}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1mesh_1_1Connector_a2e326dbcde99f1d99492dae842d439ba}
+\begin{DoxyVerb}Method for creating points on a connector.
+This method assumes that you want to cluster towards the start of the connector.
+If this is not the case, set cluster_end to True.
+
+@param distribution a point distribution object from distributions.py.
+@param cluster_end boolean variable used to control clustering direction.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_a59689632fcfb6fc3470d0163b29bd823}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!bc@{bc}}
+\index{bc@{bc}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{bc}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-mesh.\-Connector.\-bc}}\label{classaflr2utils_1_1mesh_1_1Connector_a59689632fcfb6fc3470d0163b29bd823}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_a820425dc41d23724ecab5ce72f336d0b}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!nodes@{nodes}}
+\index{nodes@{nodes}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{nodes}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-mesh.\-Connector.\-nodes}}\label{classaflr2utils_1_1mesh_1_1Connector_a820425dc41d23724ecab5ce72f336d0b}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_a1c20205fb5946a6b3d5e9c2cf86f9173}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!num\-\_\-points@{num\-\_\-points}}
+\index{num\-\_\-points@{num\-\_\-points}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{num\-\_\-points}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-mesh.\-Connector.\-num\-\_\-points}}\label{classaflr2utils_1_1mesh_1_1Connector_a1c20205fb5946a6b3d5e9c2cf86f9173}
+\hypertarget{classaflr2utils_1_1mesh_1_1Connector_aeaa7d5ba24f17928e1c0c60cc2b92f70}{\index{aflr2utils\-::mesh\-::\-Connector@{aflr2utils\-::mesh\-::\-Connector}!seg@{seg}}
+\index{seg@{seg}!aflr2utils::mesh::Connector@{aflr2utils\-::mesh\-::\-Connector}}
+\subsubsection[{seg}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-mesh.\-Connector.\-seg}}\label{classaflr2utils_1_1mesh_1_1Connector_aeaa7d5ba24f17928e1c0c60cc2b92f70}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{mesh_8py}{mesh.\-py}\end{DoxyCompactItemize}

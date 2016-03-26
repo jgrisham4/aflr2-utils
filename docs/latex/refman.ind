@@ -1,0 +1,287 @@
+\begin{theindex}
+
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Uniform}, 
+		\hyperpage{15}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Point}, 
+		\hyperpage{13}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{9}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{10}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Mesh}, 
+		\hyperpage{12}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}.\discretionary {-}{}{}py}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {aflr2utils}, \hyperpage{7}
+  \item {aflr2utils.\discretionary {-}{}{}distributions}, \hyperpage{7}
+  \item {aflr2utils.\discretionary {-}{}{}distributions.\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{10}
+  \item {aflr2utils.\discretionary {-}{}{}distributions.\discretionary {-}{}{}Uniform}, 
+		\hyperpage{15}
+  \item {aflr2utils.\discretionary {-}{}{}geometry}, \hyperpage{7}
+  \item {aflr2utils.\discretionary {-}{}{}geometry.\discretionary {-}{}{}Point}, 
+		\hyperpage{12}
+  \item {aflr2utils.\discretionary {-}{}{}geometry.\discretionary {-}{}{}Segment}, 
+		\hyperpage{13}
+  \item {aflr2utils.\discretionary {-}{}{}mesh}, \hyperpage{8}
+  \item {aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Connector}, 
+		\hyperpage{9}
+  \item {aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Edge}, 
+		\hyperpage{10}
+  \item {aflr2utils.\discretionary {-}{}{}mesh.\discretionary {-}{}{}Mesh}, 
+		\hyperpage{12}
+  \item {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{11}
+    \subitem {delta}, \hyperpage{11}
+    \subitem {ds}, \hyperpage{11}
+    \subitem {find\discretionary {-}{}{}\_\discretionary {-}{}{}delta}, 
+		\hyperpage{11}
+    \subitem {imax}, \hyperpage{11}
+    \subitem {reverse}, \hyperpage{11}
+    \subitem {s}, \hyperpage{11}
+    \subitem {s\discretionary {-}{}{}\_\discretionary {-}{}{}fun}, 
+		\hyperpage{11}
+  \item {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Uniform}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{15}
+    \subitem {imax}, \hyperpage{15}
+    \subitem {s}, \hyperpage{15}
+  \item {aflr2utils\discretionary {-}{}{}::geometry}
+    \subitem {import\discretionary {-}{}{}\_\discretionary {-}{}{}geometry}, 
+		\hyperpage{7}
+  \item {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Point}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{13}
+    \subitem {x}, \hyperpage{13}
+    \subitem {y}, \hyperpage{13}
+  \item {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{14}
+    \subitem {bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}, 
+		\hyperpage{14}
+    \subitem {bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}, 
+		\hyperpage{14}
+    \subitem {find\discretionary {-}{}{}\_\discretionary {-}{}{}inner\discretionary {-}{}{}\_\discretionary {-}{}{}control\discretionary {-}{}{}\_\discretionary {-}{}{}points}, 
+		\hyperpage{14}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}point}, 
+		\hyperpage{14}
+    \subitem {is\discretionary {-}{}{}\_\discretionary {-}{}{}bezier}, 
+		\hyperpage{14}
+    \subitem {obj\discretionary {-}{}{}\_\discretionary {-}{}{}func}, 
+		\hyperpage{14}
+    \subitem {p0}, \hyperpage{14}
+    \subitem {p1}, \hyperpage{14}
+    \subitem {p2}, \hyperpage{14}
+    \subitem {p3}, \hyperpage{14}
+    \subitem {points}, \hyperpage{14}
+    \subitem {spacing\discretionary {-}{}{}\_\discretionary {-}{}{}function}, 
+		\hyperpage{14}
+    \subitem {straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}, 
+		\hyperpage{15}
+    \subitem {straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}, 
+		\hyperpage{15}
+    \subitem {x0}, \hyperpage{15}
+    \subitem {x\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{15}
+    \subitem {y\discretionary {-}{}{}\_\discretionary {-}{}{}data}, 
+		\hyperpage{15}
+  \item {aflr2utils\discretionary {-}{}{}::mesh}
+    \subitem {create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}arc\discretionary {-}{}{}\_\discretionary {-}{}{}connector}, 
+		\hyperpage{8}
+    \subitem {create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}connector}, 
+		\hyperpage{8}
+  \item {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{9}
+    \subitem {bc}, \hyperpage{10}
+    \subitem {create\discretionary {-}{}{}\_\discretionary {-}{}{}point\discretionary {-}{}{}\_\discretionary {-}{}{}distribution}, 
+		\hyperpage{9}
+    \subitem {nodes}, \hyperpage{10}
+    \subitem {num\discretionary {-}{}{}\_\discretionary {-}{}{}points}, 
+		\hyperpage{10}
+    \subitem {seg}, \hyperpage{10}
+  \item {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Edge}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{10}
+    \subitem {connectors}, \hyperpage{10}
+  \item {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Mesh}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}init\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{12}
+    \subitem {edges}, \hyperpage{12}
+    \subitem {write\discretionary {-}{}{}\_\discretionary {-}{}{}bedge}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {bc}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{10}
+  \item {bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {bezier\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {connectors}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{10}
+  \item {create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}arc\discretionary {-}{}{}\_\discretionary {-}{}{}connector}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh}, \hyperpage{8}
+  \item {create\discretionary {-}{}{}\_\discretionary {-}{}{}circular\discretionary {-}{}{}\_\discretionary {-}{}{}connector}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh}, \hyperpage{8}
+  \item {create\discretionary {-}{}{}\_\discretionary {-}{}{}point\discretionary {-}{}{}\_\discretionary {-}{}{}distribution}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {delta}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+  \item {distributions.\discretionary {-}{}{}py}, \hyperpage{17}
+  \item {ds}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {edges}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Mesh}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {find\discretionary {-}{}{}\_\discretionary {-}{}{}delta}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+  \item {find\discretionary {-}{}{}\_\discretionary {-}{}{}inner\discretionary {-}{}{}\_\discretionary {-}{}{}control\discretionary {-}{}{}\_\discretionary {-}{}{}points}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {geometry.\discretionary {-}{}{}py}, \hyperpage{17}
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}point}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {imax}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Uniform}, 
+		\hyperpage{15}
+  \item {import\discretionary {-}{}{}\_\discretionary {-}{}{}geometry}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry}, 
+		\hyperpage{7}
+  \item {is\discretionary {-}{}{}\_\discretionary {-}{}{}bezier}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {mesh.\discretionary {-}{}{}py}, \hyperpage{18}
+
+  \indexspace
+
+  \item {nodes}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{10}
+  \item {num\discretionary {-}{}{}\_\discretionary {-}{}{}points}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {obj\discretionary {-}{}{}\_\discretionary {-}{}{}func}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {p0}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {p1}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {p2}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {p3}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {points}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {reverse}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {s}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Uniform}, 
+		\hyperpage{15}
+  \item {s\discretionary {-}{}{}\_\discretionary {-}{}{}fun}
+    \subitem {aflr2utils\discretionary {-}{}{}::distributions\discretionary {-}{}{}::\discretionary {-}{}{}Hyperbolic\discretionary {-}{}{}Tangent}, 
+		\hyperpage{11}
+  \item {seg}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Connector}, 
+		\hyperpage{10}
+  \item {spacing\discretionary {-}{}{}\_\discretionary {-}{}{}function}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{14}
+  \item {straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}x}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{15}
+  \item {straight\discretionary {-}{}{}\_\discretionary {-}{}{}fun\discretionary {-}{}{}\_\discretionary {-}{}{}y}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {write\discretionary {-}{}{}\_\discretionary {-}{}{}bedge}
+    \subitem {aflr2utils\discretionary {-}{}{}::mesh\discretionary {-}{}{}::\discretionary {-}{}{}Mesh}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {x}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Point}, 
+		\hyperpage{13}
+  \item {x0}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{15}
+  \item {x\discretionary {-}{}{}\_\discretionary {-}{}{}data}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {y}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Point}, 
+		\hyperpage{13}
+  \item {y\discretionary {-}{}{}\_\discretionary {-}{}{}data}
+    \subitem {aflr2utils\discretionary {-}{}{}::geometry\discretionary {-}{}{}::\discretionary {-}{}{}Segment}, 
+		\hyperpage{15}
+
+\end{theindex}

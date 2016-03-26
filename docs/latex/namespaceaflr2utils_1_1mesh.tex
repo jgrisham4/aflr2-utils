@@ -1,0 +1,69 @@
+\hypertarget{namespaceaflr2utils_1_1mesh}{\section{aflr2utils.\-mesh Namespace Reference}
+\label{namespaceaflr2utils_1_1mesh}\index{aflr2utils.\-mesh@{aflr2utils.\-mesh}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classaflr2utils_1_1mesh_1_1Connector}{Connector}
+\item 
+class \hyperlink{classaflr2utils_1_1mesh_1_1Edge}{Edge}
+\item 
+class \hyperlink{classaflr2utils_1_1mesh_1_1Mesh}{Mesh}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespaceaflr2utils_1_1mesh_a49beb6674c45ee74fd63b44cb4093a77}{create\-\_\-circular\-\_\-connector}
+\item 
+def \hyperlink{namespaceaflr2utils_1_1mesh_a9e5f560d8e1b657f0099b3372ebbf4be}{create\-\_\-circular\-\_\-arc\-\_\-connector}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespaceaflr2utils_1_1mesh_a9e5f560d8e1b657f0099b3372ebbf4be}{\index{aflr2utils\-::mesh@{aflr2utils\-::mesh}!create\-\_\-circular\-\_\-arc\-\_\-connector@{create\-\_\-circular\-\_\-arc\-\_\-connector}}
+\index{create\-\_\-circular\-\_\-arc\-\_\-connector@{create\-\_\-circular\-\_\-arc\-\_\-connector}!aflr2utils::mesh@{aflr2utils\-::mesh}}
+\subsubsection[{create\-\_\-circular\-\_\-arc\-\_\-connector}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-mesh.\-create\-\_\-circular\-\_\-arc\-\_\-connector (
+\begin{DoxyParamCaption}
+\item[{}]{xc, }
+\item[{}]{yc, }
+\item[{}]{r, }
+\item[{}]{theta\-\_\-start, }
+\item[{}]{theta\-\_\-stop, }
+\item[{}]{num\-\_\-points}
+\end{DoxyParamCaption}
+)}}\label{namespaceaflr2utils_1_1mesh_a9e5f560d8e1b657f0099b3372ebbf4be}
+\begin{DoxyVerb}Function for creating a circular connector.
+This function creates a circular connector when provided with
+the x- and y-coordinates of the center of the circle and the
+radius of the circle.  A uniform point distribution is created on
+the circle.
+
+@param xc x-coordinate of the center of the circle.
+@param yc y-coordinate of the center of the circle.
+@param r radius of the circle.
+@param theta_start starting angle in radians.
+@param theta_stop final angle in radians.
+@param num_points number of points on the circle.
+\end{DoxyVerb}
+ \hypertarget{namespaceaflr2utils_1_1mesh_a49beb6674c45ee74fd63b44cb4093a77}{\index{aflr2utils\-::mesh@{aflr2utils\-::mesh}!create\-\_\-circular\-\_\-connector@{create\-\_\-circular\-\_\-connector}}
+\index{create\-\_\-circular\-\_\-connector@{create\-\_\-circular\-\_\-connector}!aflr2utils::mesh@{aflr2utils\-::mesh}}
+\subsubsection[{create\-\_\-circular\-\_\-connector}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-mesh.\-create\-\_\-circular\-\_\-connector (
+\begin{DoxyParamCaption}
+\item[{}]{xc, }
+\item[{}]{yc, }
+\item[{}]{r, }
+\item[{}]{num\-\_\-points}
+\end{DoxyParamCaption}
+)}}\label{namespaceaflr2utils_1_1mesh_a49beb6674c45ee74fd63b44cb4093a77}
+\begin{DoxyVerb}Function for creating a circular connector.
+This function creates a circular connector when provided with
+the x- and y-coordinates of the center of the circle and the
+radius of the circle.  A uniform point distribution is created on
+the circle.
+
+@param xc x-coordinate of the center of the circle.
+@param yc y-coordinate of the center of the circle.
+@param r radius of the circle.
+@param num_points number of points on the circle.
+\end{DoxyVerb}
+ 

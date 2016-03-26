@@ -1,0 +1,160 @@
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment}{\section{aflr2utils.\-geometry.\-Segment Class Reference}
+\label{classaflr2utils_1_1geometry_1_1Segment}\index{aflr2utils.\-geometry.\-Segment@{aflr2utils.\-geometry.\-Segment}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classaflr2utils_1_1geometry_1_1Segment_aa39965fd9aa319a186c913707b319010}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\item 
+def \hyperlink{classaflr2utils_1_1geometry_1_1Segment_ac07f3bb57f6d4256839a3de7139946d8}{find\-\_\-inner\-\_\-control\-\_\-points}
+\item 
+def \hyperlink{classaflr2utils_1_1geometry_1_1Segment_aff213a3bcdc0d1411b95cee7c106352c}{obj\-\_\-func}
+\item 
+def \hyperlink{classaflr2utils_1_1geometry_1_1Segment_a359125e7c2e72b6ad8cac81854bee928}{get\-\_\-point}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a281bab017d233a8a3cb6a849beae61de}{points}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_ac9e73388b23d157db7215d7b63d872da}{is\-\_\-bezier}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_aa7a48fde43dae04ccb412bf13c46b2a3}{spacing\-\_\-function}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a34594d25c1052f4de37722628de84519}{bezier\-\_\-fun\-\_\-x}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a944611848daf7b9babd58b41d05e9c71}{bezier\-\_\-fun\-\_\-y}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_aa735d11d57c578d7e6b416ad04528aa5}{straight\-\_\-fun\-\_\-x}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_aa236e2051abc16ba1972d453f7f66548}{straight\-\_\-fun\-\_\-y}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a5f92987f23649c1abe04ab5e39431061}{p0}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_ab9d72d9934dc4f8b451b5a9240ca26a7}{p1}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a8fc5a71da96ed3f1168d82a4c3f3b5eb}{p2}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a026c1104ee1206b725c45e4a9544176f}{p3}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a95145244b97295a83de24aa19fe14daa}{x0}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_afca8fb4e8dfffb9caed31124f6d1430b}{x\-\_\-data}
+\item 
+\hyperlink{classaflr2utils_1_1geometry_1_1Segment_a0804de14b408f9c3fb8dd977df41e107}{y\-\_\-data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Class which represents a line segment.
+
+This class represents a line segment via control points.  If only two
+control points are used, the segment is assumed to be straight.  Otherwise,
+the other supported option is for a line with four control points.  In this
+case, the segment is represented using a cubic Bezier curve.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_aa39965fd9aa319a186c913707b319010}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-geometry.\-Segment.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{points, }
+\item[{}]{spacing\-\_\-function = {\ttfamily None}, }
+\item[{}]{is\-\_\-bezier = {\ttfamily True}}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1geometry_1_1Segment_aa39965fd9aa319a186c913707b319010}
+\begin{DoxyVerb}This constructor must be called with a list which contains points.
+
+@param points list of Point objects.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_ac07f3bb57f6d4256839a3de7139946d8}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!find\-\_\-inner\-\_\-control\-\_\-points@{find\-\_\-inner\-\_\-control\-\_\-points}}
+\index{find\-\_\-inner\-\_\-control\-\_\-points@{find\-\_\-inner\-\_\-control\-\_\-points}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{find\-\_\-inner\-\_\-control\-\_\-points}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-geometry.\-Segment.\-find\-\_\-inner\-\_\-control\-\_\-points (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1geometry_1_1Segment_ac07f3bb57f6d4256839a3de7139946d8}
+\begin{DoxyVerb}Utility function for finding the inner control points.
+\end{DoxyVerb}
+ \hypertarget{classaflr2utils_1_1geometry_1_1Segment_a359125e7c2e72b6ad8cac81854bee928}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!get\-\_\-point@{get\-\_\-point}}
+\index{get\-\_\-point@{get\-\_\-point}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{get\-\_\-point}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-geometry.\-Segment.\-get\-\_\-point (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{i}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1geometry_1_1Segment_a359125e7c2e72b6ad8cac81854bee928}
+\begin{DoxyVerb}Method for getting the i-th point on a line.
+
+@param i coordinate in the computational plane (i.e., the i-th point)
+@return a Point object which has the x- and y-coordinates of the i-th point.
+\end{DoxyVerb}
+ \hypertarget{classaflr2utils_1_1geometry_1_1Segment_aff213a3bcdc0d1411b95cee7c106352c}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!obj\-\_\-func@{obj\-\_\-func}}
+\index{obj\-\_\-func@{obj\-\_\-func}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{obj\-\_\-func}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-geometry.\-Segment.\-obj\-\_\-func (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{y}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1geometry_1_1Segment_aff213a3bcdc0d1411b95cee7c106352c}
+\begin{DoxyVerb}Objective function used in fitting the curve to the data points.
+
+@param y numpy array with two entries which represent y-coordinates of control pts.
+@return Sum of squares error between curve and data.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a34594d25c1052f4de37722628de84519}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!bezier\-\_\-fun\-\_\-x@{bezier\-\_\-fun\-\_\-x}}
+\index{bezier\-\_\-fun\-\_\-x@{bezier\-\_\-fun\-\_\-x}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{bezier\-\_\-fun\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-bezier\-\_\-fun\-\_\-x}}\label{classaflr2utils_1_1geometry_1_1Segment_a34594d25c1052f4de37722628de84519}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a944611848daf7b9babd58b41d05e9c71}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!bezier\-\_\-fun\-\_\-y@{bezier\-\_\-fun\-\_\-y}}
+\index{bezier\-\_\-fun\-\_\-y@{bezier\-\_\-fun\-\_\-y}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{bezier\-\_\-fun\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-bezier\-\_\-fun\-\_\-y}}\label{classaflr2utils_1_1geometry_1_1Segment_a944611848daf7b9babd58b41d05e9c71}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_ac9e73388b23d157db7215d7b63d872da}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!is\-\_\-bezier@{is\-\_\-bezier}}
+\index{is\-\_\-bezier@{is\-\_\-bezier}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{is\-\_\-bezier}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-is\-\_\-bezier}}\label{classaflr2utils_1_1geometry_1_1Segment_ac9e73388b23d157db7215d7b63d872da}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a5f92987f23649c1abe04ab5e39431061}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!p0@{p0}}
+\index{p0@{p0}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{p0}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-p0}}\label{classaflr2utils_1_1geometry_1_1Segment_a5f92987f23649c1abe04ab5e39431061}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_ab9d72d9934dc4f8b451b5a9240ca26a7}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!p1@{p1}}
+\index{p1@{p1}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{p1}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-p1}}\label{classaflr2utils_1_1geometry_1_1Segment_ab9d72d9934dc4f8b451b5a9240ca26a7}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a8fc5a71da96ed3f1168d82a4c3f3b5eb}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!p2@{p2}}
+\index{p2@{p2}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{p2}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-p2}}\label{classaflr2utils_1_1geometry_1_1Segment_a8fc5a71da96ed3f1168d82a4c3f3b5eb}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a026c1104ee1206b725c45e4a9544176f}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!p3@{p3}}
+\index{p3@{p3}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{p3}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-p3}}\label{classaflr2utils_1_1geometry_1_1Segment_a026c1104ee1206b725c45e4a9544176f}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a281bab017d233a8a3cb6a849beae61de}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!points@{points}}
+\index{points@{points}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{points}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-points}}\label{classaflr2utils_1_1geometry_1_1Segment_a281bab017d233a8a3cb6a849beae61de}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_aa7a48fde43dae04ccb412bf13c46b2a3}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!spacing\-\_\-function@{spacing\-\_\-function}}
+\index{spacing\-\_\-function@{spacing\-\_\-function}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{spacing\-\_\-function}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-spacing\-\_\-function}}\label{classaflr2utils_1_1geometry_1_1Segment_aa7a48fde43dae04ccb412bf13c46b2a3}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_aa735d11d57c578d7e6b416ad04528aa5}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!straight\-\_\-fun\-\_\-x@{straight\-\_\-fun\-\_\-x}}
+\index{straight\-\_\-fun\-\_\-x@{straight\-\_\-fun\-\_\-x}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{straight\-\_\-fun\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-straight\-\_\-fun\-\_\-x}}\label{classaflr2utils_1_1geometry_1_1Segment_aa735d11d57c578d7e6b416ad04528aa5}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_aa236e2051abc16ba1972d453f7f66548}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!straight\-\_\-fun\-\_\-y@{straight\-\_\-fun\-\_\-y}}
+\index{straight\-\_\-fun\-\_\-y@{straight\-\_\-fun\-\_\-y}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{straight\-\_\-fun\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-straight\-\_\-fun\-\_\-y}}\label{classaflr2utils_1_1geometry_1_1Segment_aa236e2051abc16ba1972d453f7f66548}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a95145244b97295a83de24aa19fe14daa}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!x0@{x0}}
+\index{x0@{x0}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{x0}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-x0}}\label{classaflr2utils_1_1geometry_1_1Segment_a95145244b97295a83de24aa19fe14daa}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_afca8fb4e8dfffb9caed31124f6d1430b}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!x\-\_\-data@{x\-\_\-data}}
+\index{x\-\_\-data@{x\-\_\-data}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{x\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-x\-\_\-data}}\label{classaflr2utils_1_1geometry_1_1Segment_afca8fb4e8dfffb9caed31124f6d1430b}
+\hypertarget{classaflr2utils_1_1geometry_1_1Segment_a0804de14b408f9c3fb8dd977df41e107}{\index{aflr2utils\-::geometry\-::\-Segment@{aflr2utils\-::geometry\-::\-Segment}!y\-\_\-data@{y\-\_\-data}}
+\index{y\-\_\-data@{y\-\_\-data}!aflr2utils::geometry::Segment@{aflr2utils\-::geometry\-::\-Segment}}
+\subsubsection[{y\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-geometry.\-Segment.\-y\-\_\-data}}\label{classaflr2utils_1_1geometry_1_1Segment_a0804de14b408f9c3fb8dd977df41e107}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{geometry_8py}{geometry.\-py}\end{DoxyCompactItemize}

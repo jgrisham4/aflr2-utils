@@ -1,0 +1,99 @@
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent}{\section{aflr2utils.\-distributions.\-Hyperbolic\-Tangent Class Reference}
+\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent}\index{aflr2utils.\-distributions.\-Hyperbolic\-Tangent@{aflr2utils.\-distributions.\-Hyperbolic\-Tangent}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a336e8515de74f34ee8dc27dcb151264a}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\item 
+def \hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_ac25f909658fdf3ff69915c82fae5e46e}{find\-\_\-delta}
+\item 
+def \hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a5ace9070d98b8a9eeb82af0cde146e4c}{s}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a62c92582f74b300c86e507ace7978136}{delta}
+\item 
+\hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a107f0c0b143dc60d389199978752e449}{imax}
+\item 
+\hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_aff13c57a68e451d8b1cef9d423471828}{ds}
+\item 
+\hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_af87ae831636e5c464793b51fe150de29}{reverse}
+\item 
+\hyperlink{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a73e6bc6017220b4a5b32c178122814dc}{s\-\_\-fun}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Class which represents a hyperbolic tangent point distribution.\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a336e8515de74f34ee8dc27dcb151264a}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{imax, }
+\item[{}]{ds, }
+\item[{}]{lx = {\ttfamily 1.0}, }
+\item[{}]{reverse = {\ttfamily False}}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a336e8515de74f34ee8dc27dcb151264a}
+\begin{DoxyVerb}Constructor.
+
+@param imax number of points.
+@param ds clustering toward beginning.
+@param lx total x-length of segment.
+@param reverse boolean variable used to reverse direction of clustering.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_ac25f909658fdf3ff69915c82fae5e46e}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!find\-\_\-delta@{find\-\_\-delta}}
+\index{find\-\_\-delta@{find\-\_\-delta}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{find\-\_\-delta}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-find\-\_\-delta (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_ac25f909658fdf3ff69915c82fae5e46e}
+\begin{DoxyVerb}Method for finding delta.
+This method finds the value of delta required to match with the given ds.
+\end{DoxyVerb}
+ \hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a5ace9070d98b8a9eeb82af0cde146e4c}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!s@{s}}
+\index{s@{s}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}def aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-s (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{i}
+\end{DoxyParamCaption}
+)}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a5ace9070d98b8a9eeb82af0cde146e4c}
+\begin{DoxyVerb}Method for getting the intermediate spacing function.
+
+@param i coordinate for the i-th point.
+@return s(i).
+\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a62c92582f74b300c86e507ace7978136}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!delta@{delta}}
+\index{delta@{delta}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{delta}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-delta}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a62c92582f74b300c86e507ace7978136}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_aff13c57a68e451d8b1cef9d423471828}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!ds@{ds}}
+\index{ds@{ds}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{ds}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-ds}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_aff13c57a68e451d8b1cef9d423471828}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a107f0c0b143dc60d389199978752e449}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!imax@{imax}}
+\index{imax@{imax}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{imax}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-imax}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a107f0c0b143dc60d389199978752e449}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_af87ae831636e5c464793b51fe150de29}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!reverse@{reverse}}
+\index{reverse@{reverse}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{reverse}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-reverse}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_af87ae831636e5c464793b51fe150de29}
+\hypertarget{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a73e6bc6017220b4a5b32c178122814dc}{\index{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}!s\-\_\-fun@{s\-\_\-fun}}
+\index{s\-\_\-fun@{s\-\_\-fun}!aflr2utils::distributions::HyperbolicTangent@{aflr2utils\-::distributions\-::\-Hyperbolic\-Tangent}}
+\subsubsection[{s\-\_\-fun}]{\setlength{\rightskip}{0pt plus 5cm}aflr2utils.\-distributions.\-Hyperbolic\-Tangent.\-s\-\_\-fun}}\label{classaflr2utils_1_1distributions_1_1HyperbolicTangent_a73e6bc6017220b4a5b32c178122814dc}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{distributions_8py}{distributions.\-py}\end{DoxyCompactItemize}
