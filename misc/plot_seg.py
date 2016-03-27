@@ -22,7 +22,7 @@ except ImportError:
 # Function for importing data from segment files
 def import_seg(fname):
     with open(fname, "r") as sf:
-        lines = sf.readlines()[3:]
+        lines = sf.readlines()[2:]
     x = []
     y = []
     xa = []
@@ -30,7 +30,7 @@ def import_seg(fname):
     d  = False
     for l in lines:
         lsp = l.strip().split()
-        print(l)
+        #print(l)
         if len(lsp) == 2:
             x.append(float(lsp[0]))
             y.append(float(lsp[1]))

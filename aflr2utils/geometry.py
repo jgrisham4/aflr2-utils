@@ -1,8 +1,15 @@
 import os
 import sys
-import numpy as np
-import scipy.optimize as opt
 import aflr2utils.distributions as d
+try:
+    import numpy as np
+except ImportError:
+    print("\nNumpy module must be installed to use this package. Exiting.\n")
+try:
+    import scipy.optimize as opt
+except ImportError:
+    print("\nScipy module must be installed to use this package. Exiting.\n")
+
 
 """@package geometry
 This module contains several classes and functions for 

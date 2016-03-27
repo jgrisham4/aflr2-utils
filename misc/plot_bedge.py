@@ -8,14 +8,17 @@ James Grisham
 """
 
 import os
+import sys
 try:
     import numpy as np
 except ImportError:
     print("\nNumpy module must be installed to use this script.  Exiting.\n")
+    sys.exit()
 try:
     import matplotlib.pyplot as plt
 except ImportError:
     print("\nMatplotlib module must be installed to use this script. Exiting.\n")
+    sys.exit()
 
 # Using list-comprehension to find all bedge files within the current directory
 bedge_files = [f for f in os.listdir(os.getcwd()) if f.endswith(".bedge")]

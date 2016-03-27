@@ -1,6 +1,12 @@
 import math
-import numpy as np
-import scipy.optimize as opt
+try:
+    import numpy as np
+except ImportError:
+    print("\nNumpy module must be installed to use this package. Exiting.\n")
+try:
+    import scipy.optimize as opt
+except ImportError:
+    print("\nScipy module must be installed to use this package. Exiting.\n")
 
 """@package distributions
 This module contains classes and functions for creating different types
