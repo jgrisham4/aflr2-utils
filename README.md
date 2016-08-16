@@ -41,7 +41,7 @@ Features:
 
 License:
 -------------------
-Not done yet.
+Distributed under GNU GPLv3.  
 
 Documentation:
 -------------------
